@@ -1,0 +1,15 @@
+{
+	"extends": "eslint:recommended",
+	"env": {
+		"node": true,
+		"es6": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 2017
+	},
+	"rules": {
+        "no-console": "error",
+        "no-extra-semi": "error",
+        "no-irregular-whitespace": ["error", { "skipComments": true }, { "skipRegExps": true }, { "skipTemplates": true }]
+	}
+}
